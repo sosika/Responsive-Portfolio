@@ -196,12 +196,12 @@ footer {
 		width: 100%;
 	}
 	.container1 {
-		width: 100%;
+		width: 96%;
 		margin-left: 2%;
 		margin-right: 2%;
 	}
 	.container2 {
-		width: 100%;
+		width: 96%;
 		margin-right: 2%;
 		margin-left: 2%;
 	}
@@ -211,34 +211,50 @@ footer {
 	nav {
 		margin-right: 2%;
 	}
+	.container_image {
+		margin: 20px;
+	}
 
 }
 @media screen and (max-width: 640px) {
+	.container-header {
+		background-image: url("../images/texturetastic_gray.png");
+	}
 	.content-wrapper {
 		width: 100%;
 	}
 	nav {
-		clear: inherit; 
-		width: 100%;
+		clear: both; 
+		width: 96%;
 		text-align: center;
-		margin: 0;
+		margin: ;
+	}
+	nav a {
+		margin: 65px;
+		width: 33.33%;
+		padding: 0;
+		text-align: center;
+	}
+	.v1 {
+		border: none;
+		padding: 0;
 	}
 	header {
-		width: 100%;
+		width: 96%;
 	}
 	.container1 {
-		width: 100%;
+		width: 95%;
 		margin-left: 3%;
 		margin-right: 3%;
 	}
 	.container2 {
-		width: 100%;
+		width: 95%;
 		margin-left: 3%;
 		margin-right: 3%;
 		margin-top: 40px;
 		margin-bottom: 40px;
 	}
-		.container_image {
+	.container_image {
 		width: 80%;
 		margin-right: 0;
 		margin-left: 50px;
